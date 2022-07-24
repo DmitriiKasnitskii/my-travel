@@ -1,3 +1,143 @@
-
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body main {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+body main header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  padding: 0 120px 0 120px;
+  background: rgba(242, 120, 92, 0.7);
+  box-shadow: 0 4px 4px rgba(13, 96, 111, 0.5);
+}
+body main header .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main header .header__wrapper .header__wrapper__logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 6px;
+  height: 31px;
+  width: 216px;
+}
+body main header .header__wrapper .header__wrapper__logo p {
+  font-family: "Magra", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+body main header .header__wrapper nav {
+  flex: 2;
+}
+body main header .header__wrapper nav ul {
+  display: flex;
+  gap: 42px;
+}
+body main header .header__wrapper nav ul li {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+body main header .header__wrapper button {
+  padding: 10px 30px;
+  background-color: #0d606f;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+body main section {
+  padding: 0 120px 0 120px;
+}
+body main section.explore {
+  display: flex;
+  background: url("assets/images/mountains-XL.jpg");
+  height: 765px;
+  padding-top: 120px;
+  margin-bottom: 80px;
+}
+body main section.explore .explore__wrapper {
+  flex: 3;
+}
+body main section.explore .explore__wrapper h1 {
+  margin-bottom: 30px;
+}
+body main section.explore .explore__wrapper p {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 46px;
+}
+body main section.explore .explore__wrapper .explore__wrapper__search {
+  position: relative;
+}
+body main section.explore .explore__wrapper .explore__wrapper__search input {
+  font-family: "Aleo", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  height: 95px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  border: 0;
+  outline: none;
+  padding-left: 41px;
+  color: #f2785c;
+}
+body main section.explore .explore__wrapper .explore__wrapper__search button {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  margin: 18px 24px 18px 0;
+  background: #0d606f;
+  box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  padding: 10px 32px;
+}
+body main section.explore::after {
+  content: "";
+  flex: 1;
+}
+body main section.steps {
+  margin-bottom: 97px;
+}
+body main section.destinations {
+  margin-bottom: 80px;
+}
+body main section.stories {
+  background: url("assets/images/footer-XL.png");
+  height: 1331px;
+  padding: 41px;
+  margin-bottom: 102px;
+}
+body main footer {
+  padding: 0 120px 0 120px;
+}
 
 /*# sourceMappingURL=style.css.map */

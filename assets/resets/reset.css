@@ -405,6 +405,22 @@ fieldset {
   src: url("../fonts/aleo-v11-latin-700italic.eot"); /* IE9 Compat Modes */
   src: local(""), url("../fonts/aleo-v11-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/aleo-v11-latin-700italic.woff2") format("woff2"), url("../fonts/aleo-v11-latin-700italic.woff") format("woff"), url("../fonts/aleo-v11-latin-700italic.ttf") format("truetype"), url("../fonts/aleo-v11-latin-700italic.svg#Aleo") format("svg"); /* Legacy iOS */
 }
+/* magra-regular - latin */
+@font-face {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/magra-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/magra-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/magra-v14-latin-regular.woff2") format("woff2"), url("../fonts/magra-v14-latin-regular.woff") format("woff"), url("../fonts/magra-v14-latin-regular.ttf") format("truetype"), url("../fonts/magra-v14-latin-regular.svg#Magra") format("svg"); /* Legacy iOS */
+}
+/* magra-700 - latin */
+@font-face {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/magra-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/magra-v14-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/magra-v14-latin-700.woff2") format("woff2"), url("../fonts/magra-v14-latin-700.woff") format("woff"), url("../fonts/magra-v14-latin-700.ttf") format("truetype"), url("../fonts/magra-v14-latin-700.svg#Magra") format("svg"); /* Legacy iOS */
+}
 body {
   font-family: Aleo, serif;
   font-size: 20px;
@@ -416,7 +432,9 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
-  line-height: 96px;
+  line-height: 99px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h2 {
@@ -425,6 +443,7 @@ h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 53px;
+  color: #f2785c;
 }
 
 h3 {
@@ -432,13 +451,7 @@ h3 {
   font-weight: 400;
   font-size: 35px;
   line-height: 42px;
-}
-
-h4 {
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  color: #0d606f;
 }
 
 /*# sourceMappingURL=reset.css.map */
