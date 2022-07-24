@@ -134,15 +134,22 @@ body main section.steps .steps__wrapper .steps__wrapper__icons {
   display: flex;
 }
 body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item {
+  flex: 1;
+}
+body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item .steps__wrapper__icons-item__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 2;
 }
-body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item:nth-child(2n) {
-  flex: 3;
-}
-body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item .steps__wrapper__icons-item-icon {
+body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item .steps__wrapper__icons-item__wrapper .steps__wrapper__icons-item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,7 +159,7 @@ body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__
   border-radius: 16px;
   margin-bottom: 30px;
 }
-body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item p {
+body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__icons-item .steps__wrapper__icons-item__wrapper p {
   font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;

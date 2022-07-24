@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resets/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resets/reset.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/reset.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resets/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
@@ -84,7 +77,7 @@
       <workItem from="1658652246608" duration="657000" />
       <workItem from="1658652927166" duration="54000" />
       <workItem from="1658653003660" duration="16071000" />
-      <workItem from="1658680683682" duration="13496000" />
+      <workItem from="1658680683682" duration="14476000" />
     </task>
     <task id="LOCAL-00001" summary="Add header and top sections. Add fonts">
       <created>1658682130767</created>
@@ -107,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658685850076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finish first version">
+      <created>1658696619587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658696619587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +117,8 @@
     <MESSAGE value="Add header and top sections. Add fonts" />
     <MESSAGE value="Add 3 steps section" />
     <MESSAGE value="Change text for section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change text for section" />
+    <MESSAGE value="Finish first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish first version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
