@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/resets/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/resets/reset.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/reset.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/resets/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +84,7 @@
       <workItem from="1658652246608" duration="657000" />
       <workItem from="1658652927166" duration="54000" />
       <workItem from="1658653003660" duration="16071000" />
-      <workItem from="1658680683682" duration="5068000" />
+      <workItem from="1658680683682" duration="13496000" />
     </task>
     <task id="LOCAL-00001" summary="Add header and top sections. Add fonts">
       <created>1658682130767</created>
@@ -90,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658684804200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change text for section">
+      <created>1658685850076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658685850076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add header and top sections. Add fonts" />
     <MESSAGE value="Add 3 steps section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 3 steps section" />
+    <MESSAGE value="Change text for section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change text for section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

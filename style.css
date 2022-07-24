@@ -128,7 +128,6 @@ body main section.steps {
   margin-bottom: 97px;
 }
 body main section.steps .steps__wrapper h2 {
-  text-align: center;
   margin-bottom: 41px;
 }
 body main section.steps .steps__wrapper .steps__wrapper__icons {
@@ -163,15 +162,143 @@ body main section.steps .steps__wrapper .steps__wrapper__icons .steps__wrapper__
 }
 body main section.destinations {
   margin-bottom: 80px;
+  overflow: hidden;
+}
+body main section.destinations .destinations__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section.destinations .destinations__wrapper h2 {
+  margin-bottom: 46px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel {
+  margin-bottom: 40px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 24px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item img {
+  border-radius: 16px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item p {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 40px 15px;
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls button {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgba(242, 120, 92, 0.5);
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls button.active {
+  background: #f2785c;
 }
 body main section.stories {
-  background: url("assets/images/footer-XL.png");
-  height: 1331px;
-  padding: 41px;
-  margin-bottom: 102px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 89.5%, rgba(255, 255, 255, 0) 89.5%), url("assets/images/footer-XL.png");
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+  height: 1421px;
+}
+body main section.stories .stories__wrapper h2 {
+  margin-bottom: 79px;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper article {
+  display: flex;
+  gap: 40px;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper article img {
+  filter: drop-shadow(0px 4px 4px #0d606f);
+  border-radius: 16px;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper article p,
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper article a {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
+}
+body main section.stories .stories__wrapper .stories__wrapper__articles .stories__wrapper__articles__wrapper article a {
+  text-decoration: underline;
+  font-weight: bold;
 }
 body main footer {
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 14px;
   padding: 0 120px 0 120px;
+}
+body main footer .footer__wrapper {
+  position: relative;
+  text-align: center;
+}
+body main footer .footer__wrapper p {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+body main footer .footer__wrapper .footer__wrapper__socials {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  display: flex;
+  gap: 20px;
+}
+
+.arrow-button {
+  padding: 10px 32px;
+  background: #0d606f;
+  box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.arrow-button::before {
+  content: url("assets/images/arrow.png");
+  padding-right: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
