@@ -61,7 +61,7 @@ body main header .header__wrapper nav ul li {
   color: #ffffff;
 }
 body main header .header__wrapper button {
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   background-color: #0d606f;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
@@ -97,6 +97,8 @@ body main section.explore .explore__wrapper p {
 }
 body main section.explore .explore__wrapper .explore__wrapper__search {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 body main section.explore .explore__wrapper .explore__wrapper__search input {
   font-family: "Aleo", serif;
@@ -122,11 +124,11 @@ body main section.explore .explore__wrapper .explore__wrapper__search button {
   color: #ffffff;
   position: absolute;
   right: 0;
-  margin: 18px 24px 18px 0;
+  margin: 1.125rem 1.5rem 1.125rem 0;
   background: #0d606f;
   box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
-  padding: 10px 32px;
+  padding: 0.625rem 2rem;
 }
 body main section.explore::after {
   content: "";
@@ -307,7 +309,7 @@ body main footer .footer__wrapper .footer__wrapper__socials {
 }
 
 .arrow-button {
-  padding: 10px 32px;
+  padding: 0.625rem 2rem;
   background: #0d606f;
   box-shadow: 0 0 3px rgba(13, 96, 111, 0.08), 0 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;

@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resets/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/resets/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resets/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -79,7 +76,7 @@
       <workItem from="1658652246608" duration="657000" />
       <workItem from="1658652927166" duration="54000" />
       <workItem from="1658653003660" duration="16071000" />
-      <workItem from="1658680683682" duration="17167000" />
+      <workItem from="1658680683682" duration="17445000" />
     </task>
     <task id="LOCAL-00001" summary="Add header and top sections. Add fonts">
       <created>1658682130767</created>
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658698603011</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implement REM for more flexibility">
+      <created>1658700581330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658700581330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +140,8 @@
     <MESSAGE value="Finish first version" />
     <MESSAGE value="Fix wrap for steps" />
     <MESSAGE value="Small responsive fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small responsive fixes" />
+    <MESSAGE value="Implement REM for more flexibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement REM for more flexibility" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
