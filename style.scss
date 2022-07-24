@@ -12,6 +12,14 @@ html {
   @media (max-width: 1150px) {
     font-size: 12px;
   }
+
+  @media (max-width: 800px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 8px;
+  }
 }
 
 body {
@@ -32,6 +40,11 @@ body {
       padding: 0 7.5rem 0 7.5rem;
       background: rgba(242, 120, 92, 0.7);
       box-shadow: 0 4px 4px rgba(13, 96, 111, 0.5);
+
+      @media (max-width: 800px) {
+        background: none;
+        box-shadow: none;
+      }
 
       .header__wrapper {
         display: flex;
@@ -86,13 +99,13 @@ body {
           color: #ffffff;
         }
 
-        //@media (max-width: 1150px) {
-        //  .header__wrapper__logo > p,
-        //  nav,
-        //  button {
-        //    display: none;
-        //  }
-        //}
+        @media (max-width: 800px) {
+          .header__wrapper__logo > p,
+          nav,
+          button {
+            display: none;
+          }
+        }
       }
     }
 
@@ -102,10 +115,14 @@ body {
       &.explore {
         display: flex;
         background: url("assets/images/mountains-XL.jpg");
-        height: 765px;
+        height: 47.8125rem;
 
         padding-top: calc(90px + 30px);
         margin-bottom: 80px;
+
+        @media (max-width: 800px) {
+          margin-bottom: 20px;
+        }
 
         .explore__wrapper {
           flex: 3;
@@ -121,6 +138,13 @@ body {
             font-size: 1.25rem;
             line-height: 24px;
             margin-bottom: 46px;
+          }
+
+          @media (max-width: 800px) {
+            h1,
+            p {
+              display: none;
+            }
           }
 
           .explore__wrapper__search {
@@ -173,9 +197,17 @@ body {
       &.steps {
         margin-bottom: 97px;
 
+        @media (max-width: 800px) {
+          margin-bottom: 20px;
+        }
+
         .steps__wrapper {
           h2 {
             margin-bottom: 41px;
+
+            @media (max-width: 800px) {
+              margin-bottom: 20px;
+            }
           }
 
           .steps__wrapper__icons {
@@ -230,6 +262,10 @@ body {
         margin-bottom: 80px;
         overflow: hidden;
 
+        @media (max-width: 800px) {
+          margin-bottom: 20px;
+        }
+
         .destinations__wrapper {
           display: flex;
           flex-direction: column;
@@ -237,9 +273,17 @@ body {
 
           h2 {
             margin-bottom: 46px;
+
+            @media (max-width: 800px) {
+              margin-bottom: 20px;
+            }
           }
 
           .destinations__wrapper__carousel {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-bottom: 40px;
 
             .destinations__wrapper__carousel__items {
@@ -247,6 +291,10 @@ body {
               justify-content: center;
               gap: 3.75rem;
               margin-bottom: 24px;
+
+              @media (max-width: 800px) {
+                margin-bottom: 0;
+              }
 
               .destinations__wrapper__carousel__items-item {
                 position: relative;
@@ -277,6 +325,11 @@ body {
               justify-content: center;
               gap: 10px;
 
+              @media (max-width: 800px) {
+                position: absolute;
+                bottom: 0;
+              }
+
               button {
                 width: 20px;
                 height: 20px;
@@ -304,9 +357,18 @@ body {
         background-repeat: no-repeat;
         height: 1421px;
 
+        @media (max-width: 800px) {
+          background-position-y: 30px;
+          height: 1351px;
+        }
+
         .stories__wrapper {
           h2 {
             margin-bottom: 79px;
+
+            @media (max-width: 800px) {
+              margin-bottom: 20px;
+            }
           }
 
           .stories__wrapper__articles {
@@ -367,6 +429,14 @@ body {
       margin-bottom: 14px;
       padding: 0 7.5rem 0 7.5rem;
 
+      @media (max-width: 800px) {
+        position: absolute;
+        height: 65px;
+        width: 100%;
+        bottom: 0;
+        padding: 0 7.5rem 0 7.5rem;
+      }
+
       .footer__wrapper {
         position: relative;
         text-align: center;
@@ -379,6 +449,10 @@ body {
           line-height: 21px;
 
           color: #ffffff;
+
+          @media (max-width: 800px) {
+            display: none;
+          }
         }
 
         .footer__wrapper__socials {
@@ -387,6 +461,16 @@ body {
           bottom: -5px;
           display: flex;
           gap: 1.25rem;
+
+          @media (max-width: 800px) {
+            position: relative;
+            right: auto;
+            bottom: auto;
+            display: flex;
+            justify-content: center;
+            height: 35px;
+            gap: 2.5rem;
+          }
         }
       }
     }

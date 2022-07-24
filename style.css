@@ -6,6 +6,16 @@ html {
     font-size: 12px;
   }
 }
+@media (max-width: 800px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
 
 body {
   max-width: 1440px;
@@ -25,6 +35,12 @@ body main header {
   padding: 0 7.5rem 0 7.5rem;
   background: rgba(242, 120, 92, 0.7);
   box-shadow: 0 4px 4px rgba(13, 96, 111, 0.5);
+}
+@media (max-width: 800px) {
+  body main header {
+    background: none;
+    box-shadow: none;
+  }
 }
 body main header .header__wrapper {
   display: flex;
@@ -71,15 +87,27 @@ body main header .header__wrapper button {
   line-height: 21px;
   color: #ffffff;
 }
+@media (max-width: 800px) {
+  body main header .header__wrapper .header__wrapper__logo > p,
+body main header .header__wrapper nav,
+body main header .header__wrapper button {
+    display: none;
+  }
+}
 body main section {
   padding: 0 7.5rem 0 7.5rem;
 }
 body main section.explore {
   display: flex;
   background: url("assets/images/mountains-XL.jpg");
-  height: 765px;
+  height: 47.8125rem;
   padding-top: 120px;
   margin-bottom: 80px;
+}
+@media (max-width: 800px) {
+  body main section.explore {
+    margin-bottom: 20px;
+  }
 }
 body main section.explore .explore__wrapper {
   flex: 3;
@@ -94,6 +122,12 @@ body main section.explore .explore__wrapper p {
   font-size: 1.25rem;
   line-height: 24px;
   margin-bottom: 46px;
+}
+@media (max-width: 800px) {
+  body main section.explore .explore__wrapper h1,
+body main section.explore .explore__wrapper p {
+    display: none;
+  }
 }
 body main section.explore .explore__wrapper .explore__wrapper__search {
   position: relative;
@@ -137,8 +171,18 @@ body main section.explore::after {
 body main section.steps {
   margin-bottom: 97px;
 }
+@media (max-width: 800px) {
+  body main section.steps {
+    margin-bottom: 20px;
+  }
+}
 body main section.steps .steps__wrapper h2 {
   margin-bottom: 41px;
+}
+@media (max-width: 800px) {
+  body main section.steps .steps__wrapper h2 {
+    margin-bottom: 20px;
+  }
 }
 body main section.steps .steps__wrapper .steps__wrapper__icons {
   display: flex;
@@ -182,6 +226,11 @@ body main section.destinations {
   margin-bottom: 80px;
   overflow: hidden;
 }
+@media (max-width: 800px) {
+  body main section.destinations {
+    margin-bottom: 20px;
+  }
+}
 body main section.destinations .destinations__wrapper {
   display: flex;
   flex-direction: column;
@@ -190,7 +239,16 @@ body main section.destinations .destinations__wrapper {
 body main section.destinations .destinations__wrapper h2 {
   margin-bottom: 46px;
 }
+@media (max-width: 800px) {
+  body main section.destinations .destinations__wrapper h2 {
+    margin-bottom: 20px;
+  }
+}
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 40px;
 }
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items {
@@ -198,6 +256,11 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
   justify-content: center;
   gap: 3.75rem;
   margin-bottom: 24px;
+}
+@media (max-width: 800px) {
+  body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items {
+    margin-bottom: 0;
+  }
 }
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item {
   position: relative;
@@ -223,6 +286,12 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
   justify-content: center;
   gap: 10px;
 }
+@media (max-width: 800px) {
+  body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls {
+    position: absolute;
+    bottom: 0;
+  }
+}
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls button {
   width: 20px;
   height: 20px;
@@ -238,8 +307,19 @@ body main section.stories {
   background-repeat: no-repeat;
   height: 1421px;
 }
+@media (max-width: 800px) {
+  body main section.stories {
+    background-position-y: 30px;
+    height: 1351px;
+  }
+}
 body main section.stories .stories__wrapper h2 {
   margin-bottom: 79px;
+}
+@media (max-width: 800px) {
+  body main section.stories .stories__wrapper h2 {
+    margin-bottom: 20px;
+  }
 }
 body main section.stories .stories__wrapper .stories__wrapper__articles {
   display: flex;
@@ -288,6 +368,15 @@ body main footer {
   margin-bottom: 14px;
   padding: 0 7.5rem 0 7.5rem;
 }
+@media (max-width: 800px) {
+  body main footer {
+    position: absolute;
+    height: 65px;
+    width: 100%;
+    bottom: 0;
+    padding: 0 7.5rem 0 7.5rem;
+  }
+}
 body main footer .footer__wrapper {
   position: relative;
   text-align: center;
@@ -300,12 +389,28 @@ body main footer .footer__wrapper p {
   line-height: 21px;
   color: #ffffff;
 }
+@media (max-width: 800px) {
+  body main footer .footer__wrapper p {
+    display: none;
+  }
+}
 body main footer .footer__wrapper .footer__wrapper__socials {
   position: absolute;
   right: 0;
   bottom: -5px;
   display: flex;
   gap: 1.25rem;
+}
+@media (max-width: 800px) {
+  body main footer .footer__wrapper .footer__wrapper__socials {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    gap: 2.5rem;
+  }
 }
 
 .arrow-button {
