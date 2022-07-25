@@ -103,10 +103,14 @@ body main header .header__wrapper .header__wrapper__logo .header__wrapper__logo_
     background: url("assets/images/cross.png") center no-repeat;
   }
 }
+@media (max-width: 800px) {
+  body main header .header__wrapper .header__wrapper__logo {
+    justify-content: space-between;
+  }
+}
 @media (max-width: 450px) {
   body main header .header__wrapper .header__wrapper__logo {
     align-items: flex-end;
-    justify-content: space-between;
     height: 60px;
   }
 }

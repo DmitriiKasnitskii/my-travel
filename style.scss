@@ -112,9 +112,12 @@ body {
             }
           }
 
+          @media (max-width: 800px) {
+            justify-content: space-between;
+          }
+
           @media (max-width: 450px) {
             align-items: flex-end;
-            justify-content: space-between;
             height: 60px;
           }
 

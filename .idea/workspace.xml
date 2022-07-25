@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/burger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cross.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -81,7 +79,7 @@
       <workItem from="1658652927166" duration="54000" />
       <workItem from="1658653003660" duration="16071000" />
       <workItem from="1658680683682" duration="19844000" />
-      <workItem from="1658777415654" duration="11730000" />
+      <workItem from="1658777415654" duration="12342000" />
     </task>
     <task id="LOCAL-00001" summary="Add header and top sections. Add fonts">
       <created>1658682130767</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658787421288</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add burger menu">
+      <created>1658790567846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658790567846</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +175,8 @@
     <MESSAGE value="More REM" />
     <MESSAGE value="Add more features for mobile version" />
     <MESSAGE value="Add more flexibility for 390px design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more flexibility for 390px design" />
+    <MESSAGE value="Add burger menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add burger menu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
