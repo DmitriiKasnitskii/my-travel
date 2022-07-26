@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="">
+    <list default="true" id="811156cd-f5f3-43d2-934d-2e6d2fcafb07" name="Changes" comment="Add desktop carousel actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658791180468</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add desktop carousel actions">
+      <created>1658824400041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658824400041</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +202,8 @@
     <MESSAGE value="Add more flexibility for 390px design" />
     <MESSAGE value="Add burger menu" />
     <MESSAGE value="Add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments" />
+    <MESSAGE value="Add desktop carousel actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add desktop carousel actions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

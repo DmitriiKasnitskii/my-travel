@@ -381,6 +381,7 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom: 40px;
 }
 @media (max-width: 450px) {
@@ -465,6 +466,26 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
 }
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls button.active {
   background: #f2785c;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls__mobile {
+  position: absolute;
+  width: 50px;
+  height: 150px;
+  display: none;
+}
+@media (max-width: 450px) {
+  body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls__mobile {
+    display: block;
+  }
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls__mobile button {
+  background: url(assets/images/arrowBtn.png) center no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__controls__mobile.left {
+  transform: rotate(180deg);
 }
 body main section.stories {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 89.5%, rgba(255, 255, 255, 0) 89.5%), url("assets/images/footer-XL.png");
@@ -658,6 +679,10 @@ body main footer .footer__wrapper .footer__wrapper__socials img {
 
 button:hover {
   filter: brightness(0.5);
+}
+
+button:active {
+  filter: none;
 }
 
 /*# sourceMappingURL=style.css.map */

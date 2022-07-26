@@ -33,39 +33,59 @@ const closeBurger = (e) => {
 burgerIcon.addEventListener("click", burgerClick);
 burgerCloseIcon.addEventListener("click", closeBurger);
 
-// Модальное окно
-
 // Карусель
 const carouselWrapper = document.querySelector(".destinations__wrapper__carousel__items");
-const carouselControls = document.querySelectorAll(".destinations__wrapper__carousel__controls button")
+const carouselControls = document.querySelectorAll(".destinations__wrapper__carousel__controls button");
+const carouselControlsArrowLeft = document.querySelector(".destinations__wrapper__carousel__controls__mobile .left");
+const carouselControlsArrowRight = document.querySelector(".destinations__wrapper__carousel__controls__mobile .right");
 
 const carouselItems = 3;
-let activeButton = 1;
+let activeButtonIndex = 1;
 
-for (let i = 0; i <  carouselControls.length; i+=1) {
-  carouselControls[i].addEventListener("click", () => {
-    const carouselWidth = carouselWrapper.getBoundingClientRect().width;
-    const shift = carouselWidth / carouselItems;
+const resizeFunction = () => {
+  const carouselWidth = carouselWrapper.getBoundingClientRect().width;
+  const shift = carouselWidth / carouselItems;
+  const arrowShift = shift / 2 - 30;
 
-    carouselWrapper.style.transform = `translateX(${(shift - shift * i)}px)`
-
-    carouselControls[activeButton].classList.remove('active');
-    activeButton = i;
-    carouselControls[i].classList.add('active');
-  })
+  carouselWrapper.style.transform = `translateX(${(shift - shift * activeButtonIndex)}px)`
+  carouselControlsArrowLeft.style.left = `-${arrowShift}px`;
+  carouselControlsArrowRight.style.left = `${arrowShift}px`;
 }
 
-window.addEventListener("resize", () => {
+const shiftFunction = (newIndex) => {
   const carouselWidth = carouselWrapper.getBoundingClientRect().width;
   const shift = carouselWidth / carouselItems;
 
-  carouselWrapper.style.transform = `translateX(${(shift - shift * activeButton)}px)`
+  carouselWrapper.style.transform = `translateX(${(shift - shift * newIndex)}px)`
+
+  carouselControls[activeButtonIndex].classList.remove('active');
+  activeButtonIndex = newIndex;
+  carouselControls[newIndex].classList.add('active');
+}
+
+for (let i = 0; i <  carouselControls.length; i+=1) {
+  carouselControls[i].addEventListener("click", () => shiftFunction(i))
+}
+
+carouselControlsArrowLeft.addEventListener("click", () => {
+  if (activeButtonIndex - 1 < 0) {
+    return;
+  }
+
+  shiftFunction(activeButtonIndex - 1)
 })
 
+carouselControlsArrowRight.addEventListener("click", () => {
+  if (activeButtonIndex + 1 > carouselItems - 1) {
+    return;
+  }
 
+  shiftFunction(activeButtonIndex + 1)
+})
 
+window.addEventListener("resize", resizeFunction)
 
+resizeFunction(); // Исполняем один раз вручную, чтобы при запуске в мобильном режиме сразу расположил стрелки как надо
 
-
-
+// Модальное окно
 
