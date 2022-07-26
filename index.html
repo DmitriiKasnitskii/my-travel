@@ -140,8 +140,12 @@
               <button></button>
             </div>
             <div class="destinations__wrapper__carousel__controls__mobile">
-              <button class="destinations__wrapper__carousel__controls__mobile left"></button>
-              <button class="destinations__wrapper__carousel__controls__mobile right"></button>
+              <button
+                class="destinations__wrapper__carousel__controls__mobile left"
+              ></button>
+              <button
+                class="destinations__wrapper__carousel__controls__mobile right"
+              ></button>
             </div>
           </div>
           <button class="arrow-button">Find More</button>
@@ -305,6 +309,43 @@
         </div>
       </footer>
     </main>
+    <div class="popup hidden">
+      <div class="popup__wrapper">
+        <div class="popup__wrapper-title">
+          <p class="sign_in">Log In to your account</p>
+          <p class="sign_up">Create account</p>
+        </div>
+        <div class="popup__wrapper__buttons sign_in">
+          <button class="facebook">Sign In with Facebook</button>
+          <button class="google">Sign In with Google</button>
+        </div>
+        <div class="popup__wrapper-divider">------------or------------</div>
+        <div class="popup__wrapper__inputs">
+          <div class="popup__wrapper__inputs-email">
+            <label for="email">E-mail</label>
+            <input id="email" type="text" />
+          </div>
+          <div class="popup__wrapper__inputs-password">
+            <label for="password">Password</label>
+            <input id="password" type="text" />
+          </div>
+          <button class="sign_in">Sign In</button>
+          <button class="sign_up">Sign Up</button>
+          <p class="sign_in"><a>Forgot your password?</a></p>
+        </div>
+        <div class="popup__wrapper__footer-divider">------------</div>
+        <div class="popup__wrapper__footer">
+          <p class="sign_in">
+            Don’t have an account?
+            <a class="popup__wrapper__footer-sign_in-btn">Register</a>
+          </p>
+          <p class="sign_up">
+            Already have an account?
+            <a class="popup__wrapper__footer-sign_up-btn">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="index.js" defer></script>
 </html>

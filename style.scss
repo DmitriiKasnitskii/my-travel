@@ -718,6 +718,181 @@ body {
       }
     }
   }
+
+  .popup {
+    position: absolute;
+    width: 650px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+
+    .popup__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 45px;
+
+      .popup__wrapper-title {
+        margin-bottom: 30px;
+
+        font-family: "Aleo", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.375rem;
+
+        color: #0d606f;
+      }
+
+      .popup__wrapper__buttons {
+        width: 100%;
+
+        button {
+          width: 100%;
+          padding-top: 15px;
+          padding-bottom: 15px;
+
+          box-shadow: 0 0 3px rgba(13, 96, 111, 0.08),
+            0 2px 3px rgba(13, 96, 111, 0.16);
+          border-radius: 10px;
+
+          font-family: "Red Hat Text", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.25rem;
+          line-height: 1.625rem;
+
+          &.facebook {
+            background: #1877f2;
+            color: #ffffff;
+            margin-bottom: 20px;
+          }
+
+          &.google {
+            background: #ffffff;
+            color: #0d606f;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      .popup__wrapper-divider {
+        margin-bottom: 10px;
+      }
+
+      .popup__wrapper__inputs {
+        width: 100%;
+
+        input {
+          width: 100%;
+          height: 3.375rem;
+
+          background: #ffffff;
+          box-shadow: inset 0 0 3px rgba(13, 96, 111, 0.08),
+            inset 0 2px 3px rgba(13, 96, 111, 0.16);
+          border-radius: 10px;
+          border: none;
+        }
+
+        .popup__wrapper__inputs-email {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .popup__wrapper__inputs-password {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+
+          font-family: "Aleo", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: #0d606f;
+        }
+
+        button {
+          width: 100%;
+
+          background: #0d606f;
+          box-shadow: 0 0 3px rgba(13, 96, 111, 0.08),
+            0 2px 3px rgba(13, 96, 111, 0.16);
+          border-radius: 10px;
+
+          padding: 10px 0;
+          margin-bottom: 10px;
+
+          font-family: "Red Hat Text", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.25rem;
+          line-height: 1.625rem;
+
+          color: #ffffff;
+        }
+
+        p {
+          margin-bottom: 26px;
+        }
+      }
+
+      .popup__wrapper__footer-divider {
+        margin-bottom: 20px;
+      }
+
+      .popup__wrapper__footer {
+        p {
+          font-family: "Aleo", serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 18px;
+
+          color: rgba(13, 96, 111, 0.5);
+
+          text-shadow: 0 2px 3px rgba(255, 255, 255, 0.16);
+
+          a {
+            text-decoration-line: underline;
+
+            color: #0d606f;
+          }
+        }
+      }
+    }
+
+    &.hidden {
+      display: none;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    a {
+      font-family: "Aleo", serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+
+      text-decoration-line: underline;
+
+      color: #0d606f;
+
+      text-shadow: 0 2px 3px rgba(255, 255, 255, 0.16);
+    }
+  }
 }
 
 .arrow-button {
