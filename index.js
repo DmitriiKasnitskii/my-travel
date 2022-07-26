@@ -36,3 +36,36 @@ burgerCloseIcon.addEventListener("click", closeBurger);
 // Модальное окно
 
 // Карусель
+const carouselWrapper = document.querySelector(".destinations__wrapper__carousel__items");
+const carouselControls = document.querySelectorAll(".destinations__wrapper__carousel__controls button")
+
+const carouselItems = 3;
+let activeButton = 1;
+
+for (let i = 0; i <  carouselControls.length; i+=1) {
+  carouselControls[i].addEventListener("click", () => {
+    const carouselWidth = carouselWrapper.getBoundingClientRect().width;
+    const shift = carouselWidth / carouselItems;
+
+    carouselWrapper.style.transform = `translateX(${(shift - shift * i)}px)`
+
+    carouselControls[activeButton].classList.remove('active');
+    activeButton = i;
+    carouselControls[i].classList.add('active');
+  })
+}
+
+window.addEventListener("resize", () => {
+  const carouselWidth = carouselWrapper.getBoundingClientRect().width;
+  const shift = carouselWidth / carouselItems;
+
+  carouselWrapper.style.transform = `translateX(${(shift - shift * activeButton)}px)`
+})
+
+
+
+
+
+
+
+

@@ -86,7 +86,7 @@ body main header .header__wrapper .header__wrapper__logo .header__wrapper__logo_
     height: 250px;
     padding: 44px 15px 30px 44px;
     background: #f2785c;
-    box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+    box-shadow: 0 4px 3px rgba(13, 96, 111, 0.25);
     border-radius: 10px;
   }
   body main header .header__wrapper .header__wrapper__logo .header__wrapper__logo__burger .header__wrapper__logo__burger__elements__wrapper ul li {
@@ -393,6 +393,7 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
   justify-content: center;
   gap: 3.75rem;
   margin-bottom: 24px;
+  transition: transform 1s ease 0s;
 }
 @media (max-width: 800px) {
   body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items {
@@ -403,6 +404,12 @@ body main section.destinations .destinations__wrapper .destinations__wrapper__ca
   position: relative;
   display: flex;
   flex-direction: column;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item:first-child {
+  padding-left: 15px;
+}
+body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item:last-child {
+  padding-right: 15px;
 }
 body main section.destinations .destinations__wrapper .destinations__wrapper__carousel .destinations__wrapper__carousel__items .destinations__wrapper__carousel__items-item img {
   border-radius: 16px;
